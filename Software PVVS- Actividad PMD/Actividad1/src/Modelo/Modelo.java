@@ -70,7 +70,7 @@ public class Modelo {
     public static boolean validarNumeros (String datos){
         
         
-        return datos.matches("-?[0-9 \\s+]*");
+       return datos.matches("-?[0-9 \\s -? +]*");
         
         
     }
