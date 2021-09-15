@@ -208,7 +208,7 @@ public class Modelo {
 
             
                 pw.println("Numeros ordenados");
-                pw.println(aTxt);
+                pw.println(aTxt+"\n");
 
         } catch (Exception e) {
             e.printStackTrace();
